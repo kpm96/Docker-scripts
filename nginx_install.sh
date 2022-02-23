@@ -1,12 +1,15 @@
 #!/bin/bash
 
+
 echo -n "Enter NAME (default = www):"
-read ${NAME:-www}
+read NAME
+NAME=${NAME:-www}
 echo  "$NAME"
 
 
 echo -n "Enter PORT number (default = 80):"
-read ${PORT:-80}
+read PORT
+PORT=${PORT:-80}
 echo  "$PORT"
 
 
